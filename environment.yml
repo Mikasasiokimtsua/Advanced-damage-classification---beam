@@ -1,0 +1,17 @@
+name: damage_wall_env
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8  # or adjust according to your GPU
+  - tqdm
+  - numpy
+  - pillow
+  - pip:
+      - matplotlib

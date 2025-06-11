@@ -1,0 +1,21 @@
+name: damage_wall_env
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.8 
+  - pandas
+  - numpy
+  - tqdm
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - yaml
+  - pip
+  - pip:
+      - opencv-python
+      - albumentations
