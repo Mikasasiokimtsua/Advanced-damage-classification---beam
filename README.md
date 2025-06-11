@@ -35,11 +35,22 @@ pip install torch torchvision pandas tqdm pillow
 
 ---
 
-## 🔗 Google Drive (required files)
+## 🔗 Release Assets
 
-To run this project, please download the following from our shared Google Drive:
+To run this project, download the required files from the latest GitHub Release:  
+（要執行此專案，請從 GitHub Release 下載所需檔案）
 
-🔗 **[Download Link (Google Drive)](https://drive.google.com/drive/u/0/folders/1PpHnzgqc5nhJz24ZNMgGbF4-NNCmvnb9)**
+- `datasets/`  
+  Full training, validation, and test image data.  
+  （完整的訓練、驗證與測試影像資料）
+
+- `best_damage_model.pth`  
+  Pretrained 3-class damage classification model weights.  
+  （預訓練的三分類損傷模型權重）
+
+- `best_crack_model.pth`  
+  Pretrained 11-label crack detection model weights.  
+  （預訓練的十一標籤裂縫檢測模型權重）
 
 Contents:
 
