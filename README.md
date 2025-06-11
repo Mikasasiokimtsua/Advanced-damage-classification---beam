@@ -66,10 +66,26 @@ After download, place them into your\_local\_project\_directory --> Advanced-dam
 your_local_project_directory -->
 Advanced-damage-classification---beam/
 ├── datasets/
-│   ├── damage_classification_forTrain/beam_damage/      # 3-class training images (ImageFolder)
-│   ├── crack/train/                                     # Multi-label crack image folders
-│   ├── crack/valid/
-│   └── test_data/beam/                                  # Unlabeled test images
+│   ├── beam_crack_classification/
+│   │   ├── Diagonal/
+│   │   ├── Horizontal/
+│   │   ├── Vertical/
+│   │   └── Web/
+│   ├── beam_damage_classification/
+│   │   ├── Class A/
+│   │   ├── Class B/
+│   │   └── Class C/
+│   ├── beam_damage_detection_3class_shuffled/
+│   │   ├── test/
+│   │   │   ├── images/
+│   │   │   └── labels/
+│   │   ├── train/
+│   │   │   ├── images/
+│   │   │   └── labels/
+│   │   └── val/
+│   │       ├── images/
+│   │       └── labels/
+│   └── beam_test_data/
 ├── best_damage_model.pth                                # Saved damage classification model
 ├── best_crack_model.pth                                 # Saved crack multi-label model
 ├── p01_train_damage_model.py
