@@ -63,7 +63,6 @@ After download, place them into your\_local\_project\_directory --> Advanced-dam
 ## 📁 Directory Structure
 
 ```bash
-your_local_project_directory -->
 Advanced-damage-classification---beam/
 ├── datasets/
 │   ├── beam_crack_classification/
