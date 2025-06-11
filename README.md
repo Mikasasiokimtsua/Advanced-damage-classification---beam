@@ -6,7 +6,7 @@ python train_beam_class.py
 ```
 ## Criteria mapping
 ```bash
-python train_column_criteria.py --target_class 19 --out beam_criteria_B.pth
+python train_beam_criteria.py --target_class 19 --out beam_criteria_B.pth
 ```
 
 ## Inference
